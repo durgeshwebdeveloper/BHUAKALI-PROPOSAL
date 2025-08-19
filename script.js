@@ -1,11 +1,13 @@
-function moveRandomEl(elm) {
-  elm.style.position = "absolute";
-  elm.style.top = Math.floor(Math.random() * 90 + 5) + "%";
-  elm.style.left = Math.floor(Math.random() * 90 + 5) + "%";
+
+function Show(){
+    let name = document.getElementById("name").value;
+    if(document.getElementById("name").value == ""){
+        alert("Please type your Name");
+    }
+    else{
+        document.getElementById("addname").innerHTML = name;
+        document.getElementById("m1").style.display = "none";
+        document.getElementById('c1').style.display = "block";
+    }
+    
 }
-
-const moveRandom = document.querySelector("#move-random");
-
-moveRandom.addEventListener("mouseenter", function (e) {
-  moveRandomEl(e.target);
-});

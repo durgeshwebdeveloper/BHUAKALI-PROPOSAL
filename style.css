@@ -1,44 +1,38 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
-  
-  body {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d9a6a6;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 20px;
-    max-width: 500px;
-    margin: 20px;
-  }
-  
-  .container .tenor-gif-embed {
-    max-width: 200px;
-  }
-  
-  .container .btn {
-    display: flex;
-    gap: 25px;
-  }
-  
-  .btn a {
-    text-decoration: none;
-    color: #111;
-    background: #fff;
-    padding: 10px 25px;
-    border-radius: 66px;
-    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
-  }
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: pink;   
+}
+.Main{
+    padding-top:40px;
+}
+input{
+    font-size: 30px;
+    width:250px;
+    border:2px solid red;
+    border-radius: 20px;
+    background:transparent;
+    padding-left: 10px;
+}
+button{
+    padding:5px;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.constant{
+    display: none;
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+    color:red;
+    text-shadow: 0 0 9px blue, 
+     0 0 7px #fff, 0 0 10px #fff;
+}
+.heart{
+    animation: zoom 0.2s linear;
+    animation-iteration-count: infinite;
+}
